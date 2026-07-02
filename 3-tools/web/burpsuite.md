@@ -38,7 +38,7 @@ burpsuite_linux_v2026.4.3.sh
 
 ---
 
-# Tornando o instalador executável
+### Tornando o instalador executável
 
 ```bash
 chmod +x burpsuite_linux_v*.sh
@@ -46,24 +46,15 @@ chmod +x burpsuite_linux_v*.sh
 
 ---
 
-# Executando a instalação
+### Executando a instalação
 
 ```bash
 sudo ./burpsuite_linux_v*.sh
 ```
 
-Durante o assistente:
-
-- Next
-- Accept License
-- Install
-- Finish
-
-O instalador criará automaticamente a instalação do Burp Suite.
-
 ---
 
-# Verificando a instalação
+### Verificando a instalação
 
 Execute:
 
@@ -85,7 +76,7 @@ find /opt -name burpsuite -type f 2>/dev/null
 
 ---
 
-# Configurando o PATH (Zsh)
+### Configurando o PATH (Zsh)
 
 Se o executável não estiver no PATH, descubra onde ele foi instalado:
 
@@ -114,7 +105,7 @@ source ~/.zshrc
 
 ---
 
-# Atualizando
+## Atualizando
 
 A atualização é feita instalando novamente a versão mais recente obtida na página oficial.
 
@@ -122,7 +113,7 @@ O instalador migra automaticamente as configurações da versão anterior.
 
 ---
 
-# Removendo
+## Removendo
 
 Caso tenha sido instalado em:
 
@@ -140,7 +131,7 @@ Remova também a entrada correspondente do `~/.zshrc`, caso tenha sido adicionad
 
 ---
 
-# Diretórios utilizados
+## Diretórios utilizados
 
 Instalação:
 
@@ -156,7 +147,7 @@ Configurações do usuário:
 
 ---
 
-# Comandos úteis
+## Comandos úteis
 
 Executar:
 
