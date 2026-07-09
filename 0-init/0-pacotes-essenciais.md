@@ -55,3 +55,15 @@ tshark \
 openssh-client \
 openssl
 ```
+
+Caso fique dando erro de policykit que é aquele popup que aparece para colocar a senha quando entra em algum app, instala-se o pacote para isso:
+
+```bash
+sudo apt install lxpolkit -y
+```
+
+E se estiver no gnome e quiser personalizar o dock de apps:
+
+```bash
+sudo apt install gnome-shell-extension-dashtodock -y
+```
